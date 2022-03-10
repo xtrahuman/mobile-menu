@@ -1,6 +1,51 @@
-# curriculum-cr-training-mobile-menu
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
+# Portfolio: setup mobile-menu
+
+## Description
+> Building of mobile menu for project review task
+ 
+
+## Built With
+
+- html
+- css
+- JavaScript
+
+## Procedure to clone project
+- open your terminal
+- type git clone https://github.com/xtrahuman/mobile-menu.git
+- type cd mobile-menu to change directory to the folder of the project
+- run the project in your local machine
+
+## Author
+
+👤 **Author**
+
+- GitHub: [@xtrahuman](https://github.com/xtrahuman)
+- Twitter: [@xtrahuman](https://twitter.com/xtrahuman)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/tochukwu-okpara-449528197)
+
+## Acknowledgement
+
+**Microverse**
+The original template is an initial code for the tasks performed during the Code Reviewers training.
+
+Application is based on the Figma design.
 
 
-This repo host an initial code for the tasks performed during the Code Reviewers training.
+## 🤝 Contributing
 
-Application is based on this [Figma design](https://www.figma.com/file/t3EJUCAEViw3QasuJLPLVT/Microverse-Student-Potfolio-Templates-Main?node-id=1%3A1471).
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](../../issues/).
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## 📝 License
+
+This project is [MIT](./MIT.md) licensed.
+

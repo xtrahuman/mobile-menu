@@ -27,8 +27,28 @@ header {
   color: white;
 }
 
-#desktop-nav, #desktop-nav ul {
-  display: none;
+#desktop-nav {
+  background-color: #3C3A39;
+  display: block;
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  top: 0;
+  right: -100%;
+  padding-top: 40px;
+  z-index: 1;
+  transition: all 0.5s ease;
+  color:#FFF5E1;
+}
+
+#desktop-nav.toggle {
+  right: 0;
+  transition: all 0.5s ease;
+}
+
+
+#desktop-nav ul li a {
+  color:#FFF5E1;
 }
 
 #logo {
@@ -43,6 +63,7 @@ header {
   background: transparent;
   border: none;
   outline: none;
+  z-index: 6;
 }
 
 .menu-bars i {
@@ -50,6 +71,23 @@ header {
   height: 12px;
   color: white;
 }
+
+.menu-bars i.fa-times {
+  display: none
+}
+
+.menu-bars.toggle-menu i.fa-times {
+  display: block;
+}
+
+.menu-bars i.fa-bars {
+ display: block;
+}
+
+.menu-bars.toggle-menu i.fa-bars {
+ display: none
+}
+
 
 main {
   display: flex;
