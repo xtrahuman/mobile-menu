@@ -28,7 +28,7 @@ header {
 }
 
 #desktop-nav {
-  background-color: #3C3A39;
+  background-color: #3c3a39;
   display: block;
   position: fixed;
   width: 100%;
@@ -38,7 +38,7 @@ header {
   padding-top: 40px;
   z-index: 1;
   transition: all 0.5s ease;
-  color:#FFF5E1;
+  color: #fff5e1;
 }
 
 #desktop-nav.toggle {
@@ -46,9 +46,8 @@ header {
   transition: all 0.5s ease;
 }
 
-
 #desktop-nav ul li a {
-  color:#FFF5E1;
+  color: #fff5e1;
 }
 
 #logo {
@@ -73,7 +72,7 @@ header {
 }
 
 .menu-bars i.fa-times {
-  display: none
+  display: none;
 }
 
 .menu-bars.toggle-menu i.fa-times {
@@ -81,13 +80,12 @@ header {
 }
 
 .menu-bars i.fa-bars {
- display: block;
+  display: block;
 }
 
 .menu-bars.toggle-menu i.fa-bars {
- display: none
+  display: none;
 }
-
 
 main {
   display: flex;
